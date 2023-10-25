@@ -1,0 +1,17 @@
+{
+  "name": "kyu.heyimkyu.physboneeditor",
+  "displayName": "PhysboneEditor",
+  "version": "0.0.1",
+  "description": "Tool to work better with VRC PhysBones",
+  "gitDependencies": {},
+  "vpmDependencies": {},
+  "author": {
+    "name": "HeyImKyu",
+    "email": "3ad4gum@gmail.com",
+    "url": ""
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "localPath": "N:\\AvatarProjects\\PackageCreator\\Packages\\kyu.heyimkyu.physboneeditor",
+  "type": "tool"
+}

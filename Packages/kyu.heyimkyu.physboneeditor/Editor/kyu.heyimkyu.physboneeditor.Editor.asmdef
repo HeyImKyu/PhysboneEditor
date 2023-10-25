@@ -1,0 +1,14 @@
+{
+  "name": "kyu.heyimkyu.physboneeditor.Editor",
+  "references": [
+    "kyu.heyimkyu.physboneeditor"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "autoReferenced": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "defineConstraints": [],
+  "optionalUnityReferences": []
+}
