@@ -12,9 +12,26 @@ public class PhysboneHelperEditor : UnityEditor.EditorWindow
     }
 
     public Vector2 scrollPosition { get; set; }
-    public GameObject avatar { get; set; }
+    private GameObject m_avatar;
+    public GameObject avatar
+    {
+        get { return m_avatar; }
+        set
+        {
+            m_avatar = value;
+            if (avatar == null)
+                return;
 
-    private float m_boneOpacity;
+            foreach (var bone in getPhysBones())
+            {
+                bone.boneOpacity = boneOpacity;
+                bone.limitOpacity = angleOpacity;
+                bone.showGizmos = visible;
+            }
+        }
+    }
+
+private float m_boneOpacity;
     public float boneOpacity {
         get { return m_boneOpacity; }
         set
