@@ -108,6 +108,13 @@ private float m_boneOpacity;
         EditorGUILayout.EndHorizontal();
 
         visible = EditorGUILayout.ToggleLeft("Show Gizmos", visible);
+		
+		
+        EditorGUILayout.Space();
+		
+		EditorGUILayout.LabelField("VRCSDK has changed: ");
+		EditorGUILayout.LabelField("Now you have to have your cursor directly over the viewport to see changes.");
+		EditorGUILayout.LabelField("When changing values, please hover your cursor above the viewport.");
 
         EditorGUILayout.EndScrollView();
     }
